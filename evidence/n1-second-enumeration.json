@@ -1,0 +1,40 @@
+{
+  "n": 1,
+  "C1": {
+    "candidates": 2,
+    "reduced_maa": 0,
+    "D1": 0,
+    "D2": 0
+  },
+  "C2": {
+    "candidates": 2,
+    "reduced_maa": 0,
+    "D1": 0,
+    "D2": 0
+  },
+  "candidate_union": 2,
+  "all_reduced_maa_candidates_checked": 0,
+  "by_deleted_variable": [
+    {
+      "variable": 0,
+      "C1": {
+        "candidates": 2,
+        "reduced_maa": 0,
+        "D1": 0,
+        "D2": 0
+      },
+      "C2": {
+        "candidates": 2,
+        "reduced_maa": 0,
+        "D1": 0,
+        "D2": 0
+      },
+      "union": 2
+    }
+  ],
+  "counterexamples": [],
+  "enumeration": "dependency graph / function class; no NetworkX or producer import",
+  "result": "PASS",
+  "seconds": 0.0003636659821495414,
+  "peak_rss_bytes": 25395200
+}

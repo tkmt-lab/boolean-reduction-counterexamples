@@ -1,0 +1,34 @@
+{
+  "new_coordinate_sources": [
+    0,
+    2,
+    3,
+    1
+  ],
+  "coordinate_flips": [
+    1,
+    0,
+    1,
+    0
+  ],
+  "state_mapping": [
+    5,
+    4,
+    13,
+    12,
+    7,
+    6,
+    15,
+    14,
+    1,
+    0,
+    9,
+    8,
+    3,
+    2,
+    11,
+    10
+  ],
+  "result": "PASS",
+  "equivalence": "Coordinate permutation and independent bit complementation; all 16 states and 4 output coordinates verified."
+}

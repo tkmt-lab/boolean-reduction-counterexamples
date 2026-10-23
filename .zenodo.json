@@ -1,0 +1,32 @@
+{
+  "title": "Counterexamples for Boolean-network variable elimination",
+  "upload_type": "dataset",
+  "description": "Six finite Boolean-network fixtures for testing variable elimination under asynchronous updates: three counterexamples, a coordinate-transformed copy of one, and two published controls from Pastva et al. (2024). The package contains formulas, fixed expected truth tables and dynamics, a Python standard-library checker, and regression tests. Eliminating a variable without essential self-dependency creates a motif-avoidant attractor in the counterexamples, including cases where the deleted variable lies on no directed cycle. Separate earlier computations support minimum original variable count four for the two stated exploratory conditions; their saved records are included, but the package commands do not rerun the exhaustive enumeration. That verification used separate implementations but was not blind to the aggregate three-variable results. No novelty, new safety theorem, biological behaviour, edge minimality, or general result for networks with five or more variables is claimed. Data and text: CC BY 4.0; code: Apache-2.0.",
+  "creators": [
+    {
+      "name": "Tatsuhiko Takimoto",
+      "affiliation": "Independent researcher"
+    }
+  ],
+  "version": "1.0.0",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "Boolean networks",
+    "asynchronous dynamics",
+    "variable elimination",
+    "motif-avoidant attractors",
+    "regression tests"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://arxiv.org/abs/2410.03976v1",
+      "relation": "references",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://arxiv.org/abs/2406.02304v3",
+      "relation": "references",
+      "scheme": "url"
+    }
+  ]
+}

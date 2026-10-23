@@ -1,0 +1,174 @@
+{
+  "result": "PASS",
+  "checks": [
+    {
+      "n": 1,
+      "C1": {
+        "candidates": 2,
+        "reduced_maa": 0,
+        "D1": 0,
+        "D2": 0
+      },
+      "C2": {
+        "candidates": 2,
+        "reduced_maa": 0,
+        "D1": 0,
+        "D2": 0
+      },
+      "candidate_union": 2,
+      "all_reduced_maa_candidates_checked": 0,
+      "by_deleted_variable": [
+        {
+          "variable": 0,
+          "C1": {
+            "candidates": 2,
+            "reduced_maa": 0,
+            "D1": 0,
+            "D2": 0
+          },
+          "C2": {
+            "candidates": 2,
+            "reduced_maa": 0,
+            "D1": 0,
+            "D2": 0
+          },
+          "union": 2
+        }
+      ],
+      "counterexamples": [],
+      "enumeration": "dependency graph / function class; no NetworkX or producer import",
+      "result": "PASS",
+      "seconds": 0.0003636659821495414,
+      "peak_rss_bytes": 25395200
+    },
+    {
+      "n": 2,
+      "C1": {
+        "candidates": 80,
+        "reduced_maa": 0,
+        "D1": 0,
+        "D2": 0
+      },
+      "C2": {
+        "candidates": 80,
+        "reduced_maa": 0,
+        "D1": 0,
+        "D2": 0
+      },
+      "candidate_union": 88,
+      "all_reduced_maa_candidates_checked": 0,
+      "by_deleted_variable": [
+        {
+          "variable": 0,
+          "C1": {
+            "candidates": 40,
+            "reduced_maa": 0,
+            "D1": 0,
+            "D2": 0
+          },
+          "C2": {
+            "candidates": 40,
+            "reduced_maa": 0,
+            "D1": 0,
+            "D2": 0
+          },
+          "union": 44
+        },
+        {
+          "variable": 1,
+          "C1": {
+            "candidates": 40,
+            "reduced_maa": 0,
+            "D1": 0,
+            "D2": 0
+          },
+          "C2": {
+            "candidates": 40,
+            "reduced_maa": 0,
+            "D1": 0,
+            "D2": 0
+          },
+          "union": 44
+        }
+      ],
+      "counterexamples": [],
+      "enumeration": "dependency graph / function class; no NetworkX or producer import",
+      "result": "PASS",
+      "seconds": 0.0006125000072643161,
+      "peak_rss_bytes": 25395200
+    },
+    {
+      "n": 3,
+      "C1": {
+        "candidates": 415488,
+        "reduced_maa": 6312,
+        "D1": 0,
+        "D2": 0
+      },
+      "C2": {
+        "candidates": 143784,
+        "reduced_maa": 1320,
+        "D1": 0,
+        "D2": 0
+      },
+      "candidate_union": 421680,
+      "all_reduced_maa_candidates_checked": 6312,
+      "by_deleted_variable": [
+        {
+          "variable": 0,
+          "C1": {
+            "candidates": 138496,
+            "reduced_maa": 2104,
+            "D1": 0,
+            "D2": 0
+          },
+          "C2": {
+            "candidates": 47928,
+            "reduced_maa": 440,
+            "D1": 0,
+            "D2": 0
+          },
+          "union": 140560
+        },
+        {
+          "variable": 1,
+          "C1": {
+            "candidates": 138496,
+            "reduced_maa": 2104,
+            "D1": 0,
+            "D2": 0
+          },
+          "C2": {
+            "candidates": 47928,
+            "reduced_maa": 440,
+            "D1": 0,
+            "D2": 0
+          },
+          "union": 140560
+        },
+        {
+          "variable": 2,
+          "C1": {
+            "candidates": 138496,
+            "reduced_maa": 2104,
+            "D1": 0,
+            "D2": 0
+          },
+          "C2": {
+            "candidates": 47928,
+            "reduced_maa": 440,
+            "D1": 0,
+            "D2": 0
+          },
+          "union": 140560
+        }
+      ],
+      "counterexamples": [],
+      "enumeration": "dependency graph / function class; no NetworkX or producer import",
+      "result": "PASS",
+      "seconds": 4.5746260829037055,
+      "peak_rss_bytes": 25968640
+    }
+  ],
+  "scope": "Every C1/C2 candidate was independently generated, and every candidate with a reduced MAA was independently classified."
+}

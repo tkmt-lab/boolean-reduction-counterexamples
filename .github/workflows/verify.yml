@@ -1,0 +1,31 @@
+# Adapted from the research publication CI template at c42eee4a79f2.
+name: Packet verification
+on: [push, pull_request, workflow_dispatch]
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ['3.10', '3.14']
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: File integrity, metadata and recorded claims
+        run: python3 -I -B check_packet.py
+      - name: Recompute all six finite examples
+        run: python3 -I -B check.py
+      - name: Fault tests and second finite dynamics algorithm
+        run: python3 -I -B selftest.py

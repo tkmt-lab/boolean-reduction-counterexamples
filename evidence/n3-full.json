@@ -1,0 +1,84 @@
+{
+  "n": 3,
+  "total_labelled_networks": 16777216,
+  "total_self_independent_marked_deletions": 3145728,
+  "visited_marked_deletions": 3145728,
+  "candidate_union": 421680,
+  "C1": {
+    "candidates": 415488,
+    "reduced_maa": 6312,
+    "D1": 0,
+    "D2": 0
+  },
+  "C2": {
+    "candidates": 143784,
+    "reduced_maa": 1320,
+    "D1": 0,
+    "D2": 0
+  },
+  "by_deleted_variable": [
+    {
+      "variable": 0,
+      "visited": 1048576,
+      "C1": {
+        "candidates": 138496,
+        "reduced_maa": 2104,
+        "D1": 0,
+        "D2": 0
+      },
+      "C2": {
+        "candidates": 47928,
+        "reduced_maa": 440,
+        "D1": 0,
+        "D2": 0
+      }
+    },
+    {
+      "variable": 1,
+      "visited": 1048576,
+      "C1": {
+        "candidates": 138496,
+        "reduced_maa": 2104,
+        "D1": 0,
+        "D2": 0
+      },
+      "C2": {
+        "candidates": 47928,
+        "reduced_maa": 440,
+        "D1": 0,
+        "D2": 0
+      }
+    },
+    {
+      "variable": 2,
+      "visited": 1048576,
+      "C1": {
+        "candidates": 138496,
+        "reduced_maa": 2104,
+        "D1": 0,
+        "D2": 0
+      },
+      "C2": {
+        "candidates": 47928,
+        "reduced_maa": 440,
+        "D1": 0,
+        "D2": 0
+      }
+    }
+  ],
+  "counterexamples": [],
+  "sampled_independent_checks": 934,
+  "all_small_original_profiles_checked": 0,
+  "reduced_profiles_independently_checked": 256,
+  "full_coverage": true,
+  "coverage_convention": "v increasing, local truth table increasing, lexicographic tuple of all other functions",
+  "independent_sample": "first 512 candidate-union members and every 997th later member",
+  "last_completed_local_table": {
+    "variable": 2,
+    "local_table": 15,
+    "partial": false
+  },
+  "seconds": 2.790640000021085,
+  "peak_rss_bytes": 41762816,
+  "result": "NO_COUNTEREXAMPLE_IN_FULL_ENUMERATION"
+}

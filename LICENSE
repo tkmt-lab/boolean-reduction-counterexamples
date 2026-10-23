@@ -1,0 +1,16 @@
+Copyright 2026 Tatsuhiko Takimoto, except for the attributed source examples.
+
+Code (*.py), .gitignore, and .github/workflows/verify.yml:
+  Apache License 2.0 (Apache-2.0.txt).
+
+Data and computation records (*.json), original text (*.md), and CITATION.cff:
+  Creative Commons Attribution 4.0 International (CC-BY-4.0.txt).
+
+These are licences for different files, not a choice of either licence for every file.
+
+The formulas of Pastva-7 and Pastva-8 adapt Examples 7 and 8 of Pastva et al.
+(2024), arXiv:2410.03976v1, under CC BY 4.0. See THIRD_PARTY_NOTICES.md for
+the authors, source, and changes. No source-paper PDF or third-party code is included.
+
+The licence documents retain their own notices. The notices here do not change
+the rights or licences of material linked from this package.

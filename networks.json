@@ -1,0 +1,99 @@
+{
+  "format_version": 1,
+  "cases": [
+    {
+      "id": "E1",
+      "variables": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "eliminate": "a",
+      "functions": {
+        "a": "b",
+        "b": "!b&!c",
+        "c": "!b&!c",
+        "d": "d | a&c"
+      }
+    },
+    {
+      "id": "E1-canonical",
+      "variables": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "eliminate": "a",
+      "functions": {
+        "a": "!d",
+        "b": "!b&!d",
+        "c": "a&c | !b&c",
+        "d": "!b&!d"
+      }
+    },
+    {
+      "id": "E2",
+      "variables": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "eliminate": "a",
+      "functions": {
+        "a": "!c&!d",
+        "b": "!d",
+        "c": "!a&b",
+        "d": "!c&!d | c&d"
+      }
+    },
+    {
+      "id": "E3",
+      "variables": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "eliminate": "a",
+      "functions": {
+        "a": "b",
+        "b": "!b&!c",
+        "c": "!b&!c",
+        "d": "a&c",
+        "e": "d | e"
+      }
+    },
+    {
+      "id": "Pastva-7",
+      "variables": [
+        "a",
+        "b",
+        "c"
+      ],
+      "eliminate": "c",
+      "functions": {
+        "a": "(a&c)|(!a&!c)",
+        "b": "(a&b)|(!a&!b)",
+        "c": "b"
+      }
+    },
+    {
+      "id": "Pastva-8",
+      "variables": [
+        "a",
+        "b",
+        "c"
+      ],
+      "eliminate": "a",
+      "functions": {
+        "a": "c",
+        "b": "(a&!b&!c)|(a&b&c)",
+        "c": "(!a&!b&!c)|(a&b&c)"
+      }
+    }
+  ]
+}

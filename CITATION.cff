@@ -1,0 +1,68 @@
+{
+  "cff-version": "1.2.0",
+  "message": "Prepared dataset version 1.0.0; no public release or DOI has been assigned. Cite the version used, and cite the source papers for their examples and results. Data and text: CC BY 4.0; code: Apache-2.0.",
+  "title": "Counterexamples for Boolean-network variable elimination",
+  "type": "dataset",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "family-names": "Takimoto",
+      "given-names": "Tatsuhiko",
+      "affiliation": "Independent researcher"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "Boolean networks",
+    "asynchronous dynamics",
+    "variable elimination",
+    "motif-avoidant attractors",
+    "regression tests"
+  ],
+  "references": [
+    {
+      "type": "article",
+      "title": "An open problem: Why are motif-avoidant attractors so rare in asynchronous Boolean networks?",
+      "authors": [
+        {
+          "family-names": "Pastva",
+          "given-names": "Samuel"
+        },
+        {
+          "family-names": "Park",
+          "given-names": "Kyu Hyong"
+        },
+        {
+          "family-names": "Huvar",
+          "given-names": "Ondřej"
+        },
+        {
+          "family-names": "Rozum",
+          "given-names": "Jordan C."
+        },
+        {
+          "family-names": "Albert",
+          "given-names": "Réka"
+        }
+      ],
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2410.03976v1"
+    },
+    {
+      "type": "article",
+      "title": "Phenotype control and elimination of variables in Boolean networks",
+      "authors": [
+        {
+          "family-names": "Tonello",
+          "given-names": "Elisa"
+        },
+        {
+          "family-names": "Paulevé",
+          "given-names": "Loïc"
+        }
+      ],
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2406.02304v3"
+    }
+  ]
+}

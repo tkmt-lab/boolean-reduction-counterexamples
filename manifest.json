@@ -1,0 +1,135 @@
+{
+  "format_version": 1,
+  "files": [
+    {
+      "path": ".github/workflows/verify.yml",
+      "bytes": 899,
+      "sha256": "e80a014bfa357206e5e250aed5999b5f7994a0742c6de1df46d4389f732c8bd8"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 33,
+      "sha256": "fa5b2d4433b835933b22140e01833a4972a0ee8532d76951286e3dd071994af0"
+    },
+    {
+      "path": ".zenodo.json",
+      "bytes": 1763,
+      "sha256": "d269e07d7d058e61e89b659e8516c3266fd2438d75d9deaabdc3fbaeff7981bb"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 2533,
+      "sha256": "75aef5b2486324b1b11e8ea7e34e73553bec790f5f9394004cf46ad4bec47860"
+    },
+    {
+      "path": "Apache-2.0.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "CC-BY-4.0.txt",
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 1819,
+      "sha256": "c97806a5c164757e33078536ca9235e333ba529cad86965ba3d2430e1f49d1c4"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 794,
+      "sha256": "a6953e774421bf26cdea13d3702714d2c2a95f99765d21a3036d31fb7afc1bde"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12180,
+      "sha256": "1fe5bef52f22a83be789bb3a21c14e23edb5cad95adf6d234b06b75f33dd8216"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1464,
+      "sha256": "7075e0d8d346bbcdbf14b6fb10c47e8f88b776ac3c875978e029bc8d29466550"
+    },
+    {
+      "path": "VERIFICATION-RECORD.md",
+      "bytes": 4383,
+      "sha256": "1243238de3db378b4575ef4a04b3cc58c335a0a09c1a14e65372ee8c7b473ecd"
+    },
+    {
+      "path": "check.py",
+      "bytes": 12053,
+      "sha256": "e60e356447b5f3511c71df9d5803885e9d034981a2e766be5ebc94d50822a422"
+    },
+    {
+      "path": "check_packet.py",
+      "bytes": 9748,
+      "sha256": "5fd4b84b3e8356a65491e7862dc038c04370cc6bd8d063c670b310021db5b74e"
+    },
+    {
+      "path": "claims.json",
+      "bytes": 9149,
+      "sha256": "532aec97ea2d8102048da9bfc9412f6526b533da8324a67fcd312bacbb1af515"
+    },
+    {
+      "path": "evidence/E1-canonical-equivalence.json",
+      "bytes": 413,
+      "sha256": "9e8bdfffffa2af258f30b7e98f6f458a71b081387aaea0e577bdbb56b7c4c214"
+    },
+    {
+      "path": "evidence/enumeration-audit.json",
+      "bytes": 3949,
+      "sha256": "7a1bbaf1a40da9b1134052adf3dedc94e97d63f8c2d89732dd7fc0e94796d632"
+    },
+    {
+      "path": "evidence/n1-full.json",
+      "bytes": 1215,
+      "sha256": "ffaf3267c87974e1c2fa46a07b11a7de7de384ed51ea6cd1a3c757cfd5a494fd"
+    },
+    {
+      "path": "evidence/n1-second-enumeration.json",
+      "bytes": 739,
+      "sha256": "017b5eb4839754d924e58d2959b0c4908cd046cb72ef3986476f8e46892d52e4"
+    },
+    {
+      "path": "evidence/n2-full.json",
+      "bytes": 1498,
+      "sha256": "f9723da278042f0b0f4af6f9ba57bdefdc894f532aef7cdd897c85bfe3e997c5"
+    },
+    {
+      "path": "evidence/n2-second-enumeration.json",
+      "bytes": 1013,
+      "sha256": "ad73bbf703fd390611531333f1d489434222037a755fcb57c994a014235821b6"
+    },
+    {
+      "path": "evidence/n3-full.json",
+      "bytes": 1850,
+      "sha256": "161c6254833233e036215fa32ab94d2de5833d2b34c47bc4a6a0ee207fe47cb7"
+    },
+    {
+      "path": "evidence/n3-second-enumeration.json",
+      "bytes": 1347,
+      "sha256": "b6bb559a14394aa27fae7c9530b4d9465fb754370d5ab5c190978878ab0a9d8c"
+    },
+    {
+      "path": "expected.json",
+      "bytes": 40920,
+      "sha256": "1347c63e826ff72fd211468aa9c19d719a6093d3acf3d60df15c4f1c670795ee"
+    },
+    {
+      "path": "networks.json",
+      "bytes": 1571,
+      "sha256": "86a1418dfad74598f434f8bf55cc2843ed86f8bfa5870770455e7eeaad1ad600"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 6414,
+      "sha256": "4d69ba4d6dce583867f05becf0e1f3d338a4a84ce5471f132ee2374b570197d0"
+    },
+    {
+      "path": "selftest.py",
+      "bytes": 8111,
+      "sha256": "bedc4849ebba5db6dce11a7a347805a9e0a49fca24a8462a38e44f7f86ee324e"
+    }
+  ]
+}

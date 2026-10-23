@@ -1,0 +1,68 @@
+{
+  "n": 2,
+  "total_labelled_networks": 256,
+  "total_self_independent_marked_deletions": 128,
+  "visited_marked_deletions": 128,
+  "candidate_union": 88,
+  "C1": {
+    "candidates": 80,
+    "reduced_maa": 0,
+    "D1": 0,
+    "D2": 0
+  },
+  "C2": {
+    "candidates": 80,
+    "reduced_maa": 0,
+    "D1": 0,
+    "D2": 0
+  },
+  "by_deleted_variable": [
+    {
+      "variable": 0,
+      "visited": 64,
+      "C1": {
+        "candidates": 40,
+        "reduced_maa": 0,
+        "D1": 0,
+        "D2": 0
+      },
+      "C2": {
+        "candidates": 40,
+        "reduced_maa": 0,
+        "D1": 0,
+        "D2": 0
+      }
+    },
+    {
+      "variable": 1,
+      "visited": 64,
+      "C1": {
+        "candidates": 40,
+        "reduced_maa": 0,
+        "D1": 0,
+        "D2": 0
+      },
+      "C2": {
+        "candidates": 40,
+        "reduced_maa": 0,
+        "D1": 0,
+        "D2": 0
+      }
+    }
+  ],
+  "counterexamples": [],
+  "sampled_independent_checks": 88,
+  "all_small_original_profiles_checked": 256,
+  "reduced_profiles_independently_checked": 4,
+  "full_coverage": true,
+  "coverage_convention": "v increasing, local truth table increasing, lexicographic tuple of all other functions",
+  "independent_sample": "first 512 candidate-union members and every 997th later member",
+  "last_completed_local_table": {
+    "variable": 1,
+    "local_table": 3,
+    "partial": false
+  },
+  "seconds": 0.04287237499374896,
+  "peak_rss_bytes": 40763392,
+  "result": "NO_COUNTEREXAMPLE_IN_FULL_ENUMERATION"
+}
