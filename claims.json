@@ -6,7 +6,7 @@
     "tool"
   ],
   "title": "Counterexamples for Boolean-network variable elimination",
-  "prepared_not_released": true,
+  "prepared_not_released": false,
   "kinds": {
     "finite-computation": "Recomputed for the six supplied fixtures; not a formally verified algorithm.",
     "earlier-computation": "Reported from earlier runs whose records are bundled; these commands do not repeat those runs.",
@@ -264,8 +264,8 @@
       "evidence": [
         {
           "path": "README.md",
-          "bytes": 12180,
-          "sha256": "1fe5bef52f22a83be789bb3a21c14e23edb5cad95adf6d234b06b75f33dd8216"
+          "bytes": 12135,
+          "sha256": "fa28e0b17fc731eb86c806a5340b179ce962e2cf6ac2531d0d21e38d45252775"
         }
       ]
     }

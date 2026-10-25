@@ -1,6 +1,6 @@
 {
   "cff-version": "1.2.0",
-  "message": "Prepared dataset version 1.0.0; no public release or DOI has been assigned. Cite the version used, and cite the source papers for their examples and results. Data and text: CC BY 4.0; code: Apache-2.0.",
+  "message": "Please cite this exact dataset version, and cite the source papers for their examples and results. Data and text: CC BY 4.0; code: Apache-2.0.",
   "title": "Counterexamples for Boolean-network variable elimination",
   "type": "dataset",
   "version": "1.0.0",

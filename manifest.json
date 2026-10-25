@@ -33,8 +33,8 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 1819,
-      "sha256": "c97806a5c164757e33078536ca9235e333ba529cad86965ba3d2430e1f49d1c4"
+      "bytes": 1760,
+      "sha256": "354c25439e330711aece6ada5ffe06c4d498d25a3d809526ef85b8eaac24d9a8"
     },
     {
       "path": "LICENSE",
@@ -43,8 +43,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 12180,
-      "sha256": "1fe5bef52f22a83be789bb3a21c14e23edb5cad95adf6d234b06b75f33dd8216"
+      "bytes": 12135,
+      "sha256": "fa28e0b17fc731eb86c806a5340b179ce962e2cf6ac2531d0d21e38d45252775"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -68,8 +68,8 @@
     },
     {
       "path": "claims.json",
-      "bytes": 9149,
-      "sha256": "532aec97ea2d8102048da9bfc9412f6526b533da8324a67fcd312bacbb1af515"
+      "bytes": 9150,
+      "sha256": "3f75e4feab085d0bf20357792bad4928b5742463353b4ec6e565ab91c6d36181"
     },
     {
       "path": "evidence/E1-canonical-equivalence.json",

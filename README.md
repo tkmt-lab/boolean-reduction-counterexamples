@@ -1,6 +1,6 @@
 # Counterexamples for Boolean-network variable elimination
 
-Prepared version 1.0.0. This package has not been released.
+Version 1.0.0.
 
 Deleting a variable can create a motif-avoidant attractor (MAA), even when the variable lies on no directed cycle. This package contains three counterexamples, a coordinate-transformed copy of one of them, and two published controls, with formulas, fixed expected values, and a Python checker. They provide regression inputs for implementations of asynchronous Boolean-network reduction.
 
